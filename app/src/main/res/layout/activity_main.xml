@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select toppings you want"
+        android:layout_marginTop="70dp"/>
+
+    <CheckBox
+        android:id="@+id/checkBox_Ham"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ham"/>
+
+    <CheckBox
+        android:id="@+id/checkBox_Pineapple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pineapple"/>
+
+    <CheckBox
+        android:id="@+id/checkBox_Anchovies"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Anchovies"/>
+
+    <CheckBox
+        android:id="@+id/checkBox_Olives"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Olives"/>
+
+    <Button
+        android:id="@+id/select_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select"/>
+
+    <TextView
+        android:id="@+id/selection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
